@@ -29,26 +29,28 @@
                                     <action selector="RecordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="leA-g0-DCO"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIu-gK-rKK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIu-gK-rKK">
                                 <rect key="frame" x="136" y="356" width="102.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xj-50-LtY">
-                                <rect key="frame" x="133" y="395" width="109" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xj-50-LtY">
+                                <rect key="frame" x="134.5" y="396.5" width="106" height="30"/>
                                 <state key="normal" title="Stop Recording"/>
+                                <connections>
+                                    <action selector="StopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ee3-uy-uBx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EIu-gK-rKK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bpv-yE-fC7"/>
-                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JjB-Zc-9VU"/>
-                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P2G-oW-ltF"/>
-                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S25-lV-eRJ"/>
-                            <constraint firstItem="EIu-gK-rKK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l0G-Vc-chu"/>
-                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="umJ-VW-Rnh"/>
+                            <constraint firstItem="EIu-gK-rKK" firstAttribute="centerX" secondItem="qGc-DP-DAK" secondAttribute="centerX" id="17n-za-euZ"/>
+                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AGd-Rn-o2E"/>
+                            <constraint firstItem="1Xj-50-LtY" firstAttribute="top" secondItem="qGc-DP-DAK" secondAttribute="bottom" constant="48" id="qZr-cS-FkP"/>
+                            <constraint firstItem="qGc-DP-DAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t8n-pv-RIt"/>
+                            <constraint firstItem="EIu-gK-rKK" firstAttribute="top" secondItem="qGc-DP-DAK" secondAttribute="bottom" constant="8" id="ycf-GU-gDY"/>
+                            <constraint firstItem="1Xj-50-LtY" firstAttribute="centerX" secondItem="qGc-DP-DAK" secondAttribute="centerX" id="zRp-2W-9cc"/>
                         </constraints>
                     </view>
                     <connections>
