@@ -71,7 +71,7 @@
         <!--Playback View Controller-->
         <scene sceneID="99t-Y2-unF">
             <objects>
-                <viewController id="xEh-lI-Hxd" userLabel="Playback View Controller" sceneMemberID="viewController">
+                <viewController id="xEh-lI-Hxd" userLabel="Playback View Controller" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DAs-05-7SR"/>
                         <viewControllerLayoutGuide type="bottom" id="TCl-Pm-heU"/>
