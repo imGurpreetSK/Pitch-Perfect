@@ -12,7 +12,7 @@ Created as the first project of my Udacity iOS Nanodegree.
 
 ### Screenshots
 <div align="center">
-        <img width="200px" src="SS_Learnings/Screen1.png" alt="Screen1"></img>
-        <img width="200px" src="SS_Learnings/Screen2_normal.png" alt="Stop button disabled"></img>
-        <img width="200px" src="SS_Learnings/Screen2_playback.png" alt="Stop button enabled"></img>
+        <img width="250px" src="SS_Learnings/Screen1.png" alt="Screen1"></img>
+        <img width="250px" src="SS_Learnings/Screen2_normal.png" alt="Stop button disabled"></img>
+        <img width="250px" src="SS_Learnings/Screen2_playback.png" alt="Stop button enabled"></img>
 </div>
