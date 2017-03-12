@@ -30,13 +30,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIu-gK-rKK">
-                                <rect key="frame" x="156" y="454" width="103" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="150.66666666666669" y="454" width="114.66666666666669" height="21.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xj-50-LtY">
-                                <rect key="frame" x="173" y="507" width="69" height="66"/>
+                                <rect key="frame" x="174" y="550" width="69" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="PMB-mr-lQD"/>
                                     <constraint firstAttribute="width" constant="69" id="tNc-WT-fo3"/>
@@ -52,7 +52,7 @@
                             <constraint firstItem="EIu-gK-rKK" firstAttribute="centerX" secondItem="qGc-DP-DAK" secondAttribute="centerX" id="17n-za-euZ"/>
                             <constraint firstItem="1Xj-50-LtY" firstAttribute="centerX" secondItem="EIu-gK-rKK" secondAttribute="centerX" id="1bF-ys-rdn"/>
                             <constraint firstItem="qGc-DP-DAK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AGd-Rn-o2E"/>
-                            <constraint firstItem="1Xj-50-LtY" firstAttribute="top" secondItem="EIu-gK-rKK" secondAttribute="bottom" constant="33" id="R4B-5p-ZH6"/>
+                            <constraint firstItem="1Xj-50-LtY" firstAttribute="top" secondItem="EIu-gK-rKK" secondAttribute="bottom" constant="74.333333333333314" id="R4B-5p-ZH6"/>
                             <constraint firstItem="qGc-DP-DAK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t8n-pv-RIt"/>
                             <constraint firstItem="EIu-gK-rKK" firstAttribute="top" secondItem="qGc-DP-DAK" secondAttribute="bottom" constant="8" id="ycf-GU-gDY"/>
                         </constraints>
